@@ -22,6 +22,7 @@ The predictive framework is designed to:
 ### **Data Access**
 Due to GitHub file size limitations, the dataset is hosted externally:  
 👉 [**Download Dataset Here**](https://utexas.app.box.com/folder/366623207667)
+Link: https://utexas.app.box.com/folder/366623207667
 
 #### **Instructions**
 1.  **Download** the dataset from the link above.
@@ -31,7 +32,7 @@ Due to GitHub file size limitations, the dataset is hosted externally:
 
 ---
 
-### **Repository Structure (Conceptual)**
+### **Repository Structure**
 * **`Model-0`** → Based on combined industry density in the HUC-8s.
 * **`Model-1`** → Based on AFFF users (airports, firefighting training stations, and military bases).
 * **`Model-2`** → Based on only individual industry counts (25 NAICS codes).
@@ -73,4 +74,8 @@ Locate the variable cwd in your script:
 ```python
 cwd = "path_to_source_data_files"
 ```
-
+### 4. Run the Models
+Choose the model you want to run from the Repository Structure and run it. Example, if you want to run Model-5:
+```bash
+python Model-5.py
+```
