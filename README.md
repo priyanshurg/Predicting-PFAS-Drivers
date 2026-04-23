@@ -38,3 +38,14 @@ Due to GitHub file size limitations, the dataset is hosted externally:
 * **`Model-3`** → Based on only individual industry counts (25 NAICS codes). *[Duplicated, needs to be replaced]*
 * **`Model-4`** → 25 NAICS codes + 3 AFFF users.
 * **`Model-5`** → Interpretation and analysis (e.g., SHAP insights).
+
+
+## How to Run
+
+Follow the steps below to reproduce the full pipeline:
+
+### 1. Clone or Download the Repository
+Run the following in your terminal:
+```bash
+git clone <repository-url>
+cd <repository-folder>
