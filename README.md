@@ -74,6 +74,13 @@ Locate the variable cwd in your script:
 ```python
 cwd = "path_to_source_data_files"
 ```
+Replace this variable with the absolute path to your data folder.
+**Example (Linux/Mac):**
+If the absolute path of your data folder is: "/home/username/projects/pfas/source_data_files", update the cwd variable as below: 
+```python
+cwd = "/home/username/projects/pfas/"
+```
+
 ### 4. Run the Models
 Choose the model you want to run from the Repository Structure and run it. Example, if you want to run Model-5:
 ```bash
