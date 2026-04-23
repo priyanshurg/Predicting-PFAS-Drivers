@@ -48,7 +48,7 @@ Follow the steps below to reproduce the full pipeline:
 Run the following in your terminal:
 ```bash
 git clone <repository-url>
-cd <repository-folder>
+cd <repository-folder>```
 
 
 ### 2. Create and Activate a Virtual Environment
