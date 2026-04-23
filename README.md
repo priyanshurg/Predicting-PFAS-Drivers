@@ -49,3 +49,10 @@ Run the following in your terminal:
 ```bash
 git clone <repository-url>
 cd <repository-folder>
+
+
+### 2. Create and Activate a Virtual Environment
+It is recommended to isolate dependencies to avoid version conflicts.
+```python -m venv pfas_env
+source pfas_env/bin/activate      # Linux / Mac
+pfas_env\Scripts\activate         # Windows
