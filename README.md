@@ -79,3 +79,16 @@ Choose the model you want to run from the Repository Structure and run it. Examp
 ```bash
 python Model-5.py
 ```
+
+### 5. User Interface
+1.  Select your model architecture of choice from the dropdown.
+2.  Click Train & Evaluate to train the model using 5-Fold cross validation.
+3.  This will plot the ROC-AUC curve as well as the different performance metrics in the white boxes.
+Other Buttons:
+A.                **Threshold Metrics:** plots the model performance metrics versus the threshold choice between 0 and 1.
+B.                **SHAP summary:** will plot the beeswarm plot of SHAP impacts for the trained model.
+C.                **Mean SHAP importance:** will plot the mean of absolute SHAP impacts for the top 10 most important features of the model.
+D.                **Save:** to save the model and current threshold values as a pickle, _.pkl_, file.
+E.                **Load:** load a saved model and threshold saved as a _.pkl_ file.
+<img width="1220" height="653" alt="image" src="https://github.com/user-attachments/assets/1f86a7c3-4605-4e59-b805-1e2fdf6aa884" />
+
