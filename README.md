@@ -53,7 +53,8 @@ cd <repository-folder>
 
 ### 2. Create and Activate a Virtual Environment
 It is recommended to isolate dependencies to avoid version conflicts.
-```python -m venv pfas_env
+```bash
+python -m venv pfas_env
 source pfas_env/bin/activate      # Linux / Mac
 pfas_env\Scripts\activate         # Windows
 ```
@@ -65,5 +66,11 @@ conda activate pfas_env
 Install the dependencies using:
 ```bash
 pip install -r requirements.txt
+```
+
+### 3. Update File Paths in Code
+Locate the variable cwd in your script:
+```python
+cwd = "path_to_source_data_files"
 ```
 
